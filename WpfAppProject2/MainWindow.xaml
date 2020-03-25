@@ -5,8 +5,45 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfAppProject2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="887" Width="620">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <Label Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3" Content="Выберите шаблон резюме" FontSize="24" HorizontalContentAlignment="Center"></Label>
+        <Button x:Name="btnT1" Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="3" Content="Хронологическое" FontSize="18"></Button>
+        <Button x:Name="btnT2" Grid.Column="1" Grid.Row="5" Grid.ColumnSpan="3" Content="Функциональное" FontSize="18"></Button>
+        <Button x:Name="btnT3" Grid.Column="1" Grid.Row="7" Grid.ColumnSpan="3" Content="Комбинированное" FontSize="18"></Button>
+        <Button x:Name="btnT4" Grid.Column="1" Grid.Row="9" Grid.ColumnSpan="3" Content="Профессиональное" FontSize="18"></Button>
+        <Button x:Name="btnT5" Grid.Column="1" Grid.Row="11" Grid.ColumnSpan="3" Content="Академическое " FontSize="18"></Button>
+
+        <!--<Button x:Name="btnBack" Grid.Column="0" Grid.Row="13" Content="Back" FontSize="14"></Button>-->
+        <Button x:Name="btnNext" Grid.Column="4" Grid.Row="13" Content="Next" FontSize="14"></Button>
+        <Button x:Name="btnClose" Grid.Column="0" Grid.Row="13"  Content="Close" FontSize="14"></Button>
         
     </Grid>
 </Window>

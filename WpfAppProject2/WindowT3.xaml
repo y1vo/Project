@@ -1,0 +1,88 @@
+﻿<Window x:Class="WpfAppProject2.WindowT3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppProject2"
+        mc:Ignorable="d"
+        Title="WindowT3" Height="887" Width="620">
+    <Grid ShowGridLines="False">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <TextBox x:Name="txtBox1" Text="Имя и Фамилия" Grid.Column="4" Grid.Row="0" Grid.ColumnSpan="9"  FontSize="24"></TextBox>
+        <TextBox x:Name="txtBox2" Text="Должность" Grid.Column="4" Grid.Row="1" Grid.ColumnSpan="9"  FontSize="24"></TextBox>
+        <TextBox x:Name="txtBox3" Text="Адрес проживания" Grid.Column="4" Grid.Row="1" Grid.ColumnSpan="3"  FontSize="20"></TextBox>
+        <Label Content="Возраст" Grid.ColumnSpan="3" Grid.Column="7" Grid.Row="1"></Label>
+
+        <TextBox x:Name="txtBox4" Text="Возраст" Grid.Column="8" Grid.Row="1" Grid.ColumnSpan="3"  FontSize="18"></TextBox>
+        
+        <Label Content="ОПЫТ РАБОТЫ" Grid.ColumnSpan="3" Grid.Column="4" Grid.Row="3"></Label>
+        <TextBox x:Name="txtBox5" Text="ОПЫТ РАБОТЫ" Grid.Column="4" Grid.Row="4" Grid.ColumnSpan="5" Grid.RowSpan="7" FontSize="18"></TextBox>
+
+        <Label Content="ОБРАЗОВАНИЕ" Grid.ColumnSpan="3" Grid.Column="4" Grid.Row="11"></Label>
+        <TextBox x:Name="txtBox6" Text="Образование" Grid.Column="4" Grid.Row="12" Grid.ColumnSpan="5" Grid.RowSpan="4" FontSize="18"></TextBox>
+
+
+        <Label Content="КУРСЫ" Grid.ColumnSpan="3" Grid.Column="4" Grid.Row="16"></Label>
+        <TextBox x:Name="txtBox7" Text="Образование" Grid.Column="4" Grid.Row="17" Grid.ColumnSpan="5" Grid.RowSpan="4" FontSize="18"></TextBox>
+
+
+        <!--<Label Content="О СЕБЕ" Grid.ColumnSpan="3" Grid.Column="4" Grid.Row="3"></Label>-->
+
+        <Label Content="КОНТАКТЫ" Grid.ColumnSpan="3" Grid.Column="0" Grid.Row="3"></Label>
+        <TextBox x:Name="txtBox8" Text="Телефон" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="3" FontSize="18"></TextBox>
+        <TextBox x:Name="txtBox9" Text="E-mail" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="3" FontSize="18"></TextBox>
+        
+        <Label Content="ЯЗЫКИ" Grid.ColumnSpan="3" Grid.Column="0" Grid.Row="6"></Label>
+        <TextBox x:Name="txtBox10" Text="E-mail" Grid.Column="0" Grid.Row="7" Grid.ColumnSpan="3" Grid.RowSpan="3" FontSize="18"></TextBox>
+
+        <Label Content="НАВЫКИ" Grid.ColumnSpan="3" Grid.Column="0" Grid.Row="10"></Label>
+        <TextBox x:Name="txtBox11" Text="E-mail" Grid.Column="0" Grid.Row="11" Grid.ColumnSpan="3" Grid.RowSpan="7" FontSize="18"></TextBox>
+
+        <Label Content="О СЕБЕ" Grid.ColumnSpan="3" Grid.Column="0" Grid.Row="18"></Label>
+        <TextBox x:Name="txtBox12" Text="E-mail" Grid.Column="0" Grid.Row="19" Grid.ColumnSpan="3" Grid.RowSpan="3" FontSize="18"></TextBox>
+
+
+        <Button x:Name="btnBack" Grid.Column="0" Grid.Row="22"  Content="Back" FontSize="14"></Button>
+        <Button x:Name="btnNext" Grid.ColumnSpan="4" Grid.Column="9" Grid.Row="22" Content="Next" FontSize="14"></Button>
+        <Button x:Name="btnClose" Grid.Column="4" Grid.Row="22"  Content="Close" FontSize="14"></Button>
+    </Grid>
+</Window>
