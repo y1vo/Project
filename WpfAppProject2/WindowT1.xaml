@@ -50,21 +50,22 @@
 
         <TextBox x:Name="txtBox1" Text="Имя и Фамилия" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="4" FontSize="24"></TextBox>
 
-        <Label Content="Дата рождения:" Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="3"></Label>
+        <TextBlock Text="Дата рождения:" Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="3"></TextBlock>
         <TextBox x:Name="txtBox2" Text="Имя и Фамилия" Grid.Column="3" Grid.Row="3" Grid.ColumnSpan="4" FontSize="16"></TextBox>
 
-        <Label Content="Место жительства:" Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="4"></Label>
+        <TextBlock Text="Место жительства:" Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="4"></TextBlock>
         <TextBox x:Name="txtBox3" Text="Имя и Фамилия" Grid.Column="3" Grid.Row="4" Grid.ColumnSpan="4" FontSize="16"></TextBox>
-        
-        <Label Content="Телефон:" Grid.Column="1" Grid.Row="5"></Label>
+
+        <TextBlock Text="Телефон:" Grid.Column="1" Grid.Row="5"></TextBlock>
         <TextBox x:Name="txtBox4" Text="Имя и Фамилия" Grid.Column="3" Grid.Row="5" Grid.ColumnSpan="4" FontSize="16"></TextBox>
-        
-        <Label Content="E-mail:" Grid.Column="1" Grid.Row="6"></Label>
+
+        <TextBlock Text="E-mail:" Grid.Column="1" Grid.Row="6"></TextBlock>
         <TextBox x:Name="txtBox5" Text="Имя и Фамилия" Grid.Column="3" Grid.Row="6" Grid.ColumnSpan="4" FontSize="16"></TextBox>
 
-        <Label Content="Цель:" Grid.Column="1" Grid.Row="8"></Label>
+        <TextBlock Text="Цель:" Grid.Column="1" Grid.Row="8"></TextBlock>
         <TextBox x:Name="txtBox6" Text="Имя и Фамилия" Grid.Column="3" Grid.Row="8" Grid.ColumnSpan="6" Grid.RowSpan="6" FontSize="16"></TextBox>
-        <Label Content="Опыт работы:" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="14"></Label>
+        
+        <TextBlock Text="Опыт работы:" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="14"></TextBlock>
         <TextBox x:Name="txtBox7" Text="Имя и Фамилия" Grid.Column="0" Grid.Row="15" Grid.ColumnSpan="9" Grid.RowSpan="6" FontSize="16"></TextBox>
 
 

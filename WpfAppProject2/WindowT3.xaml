@@ -50,34 +50,34 @@
         <TextBox x:Name="txtBox1" Text="Имя и Фамилия" Grid.Column="4" Grid.Row="0" Grid.ColumnSpan="9"  FontSize="24"></TextBox>
         <TextBox x:Name="txtBox2" Text="Должность" Grid.Column="4" Grid.Row="1" Grid.ColumnSpan="9"  FontSize="24"></TextBox>
         <TextBox x:Name="txtBox3" Text="Адрес проживания" Grid.Column="4" Grid.Row="1" Grid.ColumnSpan="3"  FontSize="20"></TextBox>
-        <Label Content="Возраст" Grid.ColumnSpan="3" Grid.Column="7" Grid.Row="1"></Label>
+        <TextBlock Text="Возраст" Grid.ColumnSpan="3" Grid.Column="7" Grid.Row="1"></TextBlock>
 
         <TextBox x:Name="txtBox4" Text="Возраст" Grid.Column="8" Grid.Row="1" Grid.ColumnSpan="3"  FontSize="18"></TextBox>
         
-        <Label Content="ОПЫТ РАБОТЫ" Grid.ColumnSpan="3" Grid.Column="4" Grid.Row="3"></Label>
+        <TextBlock Text="ОПЫТ РАБОТЫ" Grid.ColumnSpan="3" Grid.Column="4" Grid.Row="3"></TextBlock>
         <TextBox x:Name="txtBox5" Text="ОПЫТ РАБОТЫ" Grid.Column="4" Grid.Row="4" Grid.ColumnSpan="5" Grid.RowSpan="7" FontSize="18"></TextBox>
 
-        <Label Content="ОБРАЗОВАНИЕ" Grid.ColumnSpan="3" Grid.Column="4" Grid.Row="11"></Label>
+        <TextBlock Text="ОБРАЗОВАНИЕ" Grid.ColumnSpan="3" Grid.Column="4" Grid.Row="11"></TextBlock>
         <TextBox x:Name="txtBox6" Text="Образование" Grid.Column="4" Grid.Row="12" Grid.ColumnSpan="5" Grid.RowSpan="4" FontSize="18"></TextBox>
 
 
-        <Label Content="КУРСЫ" Grid.ColumnSpan="3" Grid.Column="4" Grid.Row="16"></Label>
+        <TextBlock Text="КУРСЫ" Grid.ColumnSpan="3" Grid.Column="4" Grid.Row="16"></TextBlock>
         <TextBox x:Name="txtBox7" Text="Образование" Grid.Column="4" Grid.Row="17" Grid.ColumnSpan="5" Grid.RowSpan="4" FontSize="18"></TextBox>
 
 
         <!--<Label Content="О СЕБЕ" Grid.ColumnSpan="3" Grid.Column="4" Grid.Row="3"></Label>-->
 
-        <Label Content="КОНТАКТЫ" Grid.ColumnSpan="3" Grid.Column="0" Grid.Row="3"></Label>
+        <TextBlock Text="КОНТАКТЫ" Grid.ColumnSpan="3" Grid.Column="0" Grid.Row="3"></TextBlock>
         <TextBox x:Name="txtBox8" Text="Телефон" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="3" FontSize="18"></TextBox>
         <TextBox x:Name="txtBox9" Text="E-mail" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="3" FontSize="18"></TextBox>
-        
-        <Label Content="ЯЗЫКИ" Grid.ColumnSpan="3" Grid.Column="0" Grid.Row="6"></Label>
+
+        <TextBlock Text="ЯЗЫКИ" Grid.ColumnSpan="3" Grid.Column="0" Grid.Row="6"></TextBlock>
         <TextBox x:Name="txtBox10" Text="E-mail" Grid.Column="0" Grid.Row="7" Grid.ColumnSpan="3" Grid.RowSpan="3" FontSize="18"></TextBox>
 
-        <Label Content="НАВЫКИ" Grid.ColumnSpan="3" Grid.Column="0" Grid.Row="10"></Label>
+        <TextBlock Text="НАВЫКИ" Grid.ColumnSpan="3" Grid.Column="0" Grid.Row="10"></TextBlock>
         <TextBox x:Name="txtBox11" Text="E-mail" Grid.Column="0" Grid.Row="11" Grid.ColumnSpan="3" Grid.RowSpan="7" FontSize="18"></TextBox>
 
-        <Label Content="О СЕБЕ" Grid.ColumnSpan="3" Grid.Column="0" Grid.Row="18"></Label>
+        <TextBlock Text="О СЕБЕ" Grid.ColumnSpan="3" Grid.Column="0" Grid.Row="18"></TextBlock>
         <TextBox x:Name="txtBox12" Text="E-mail" Grid.Column="0" Grid.Row="19" Grid.ColumnSpan="3" Grid.RowSpan="3" FontSize="18"></TextBox>
 
 
