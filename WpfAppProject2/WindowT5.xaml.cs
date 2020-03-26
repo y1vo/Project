@@ -23,5 +23,24 @@ namespace WpfAppProject2
         {
             InitializeComponent();
         }
+
+        private void BtnClose_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void BtnBack_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow window = new MainWindow();
+            this.Close();
+            window.Show();
+        }
+
+        private void BtnNext_Click(object sender, RoutedEventArgs e)
+        {
+            WindowSaveInFormat window = new WindowSaveInFormat();
+            this.Close();
+            window.Show();
+        }
     }
 }

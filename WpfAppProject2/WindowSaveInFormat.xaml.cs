@@ -23,5 +23,14 @@ namespace WpfAppProject2
         {
             InitializeComponent();
         }
+
+        private void BtnCancel_Click(object sender, RoutedEventArgs e)
+        {
+            /* здесь нужно на последнее открытое окно переходить
+            WindowSaveInFormat window = new WindowSaveInFormat();
+            this.Close();
+            window.Show();
+            */
+        }
     }
 }

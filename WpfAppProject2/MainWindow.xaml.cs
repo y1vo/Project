@@ -24,5 +24,54 @@ namespace WpfAppProject2
         {
             InitializeComponent();
         }
+
+        private void BtnT1_Click(object sender, RoutedEventArgs e)
+        {
+            WindowT1 window = new WindowT1();
+            this.Close();
+            window.Show();
+        }
+
+        private void BtnT2_Click(object sender, RoutedEventArgs e)
+        {
+            WindowT2 window = new WindowT2();
+            this.Close();
+            window.Show();
+        }
+
+        private void BtnT3_Click(object sender, RoutedEventArgs e)
+        {
+            WindowT3 window = new WindowT3();
+            this.Close();
+            window.Show();
+        }
+
+        private void BtnT4_Click(object sender, RoutedEventArgs e)
+        {
+            WindowT4 window = new WindowT4();
+            this.Close();
+            window.Show();
+        }
+
+        private void BtnT5_Click(object sender, RoutedEventArgs e)
+        {
+            WindowT5 window = new WindowT5();
+            this.Close();
+            window.Show();
+        }
+
+        private void BtnClose_Click(object sender, RoutedEventArgs e)
+        { 
+            this.Close();
+        }
+
+        private void BtnNext_Click(object sender, RoutedEventArgs e)
+        {
+            //здесь будет открываться последнее окно
+            /*
+            Window1 window = new Window1();
+            window.Show();
+            */
+        }
     }
 }

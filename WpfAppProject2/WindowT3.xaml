@@ -81,8 +81,8 @@
         <TextBox x:Name="txtBox12" Text="E-mail" Grid.Column="0" Grid.Row="19" Grid.ColumnSpan="3" Grid.RowSpan="3" FontSize="18"></TextBox>
 
 
-        <Button x:Name="btnBack" Grid.Column="0" Grid.Row="22"  Content="Back" FontSize="14"></Button>
-        <Button x:Name="btnNext" Grid.ColumnSpan="4" Grid.Column="9" Grid.Row="22" Content="Next" FontSize="14"></Button>
-        <Button x:Name="btnClose" Grid.Column="4" Grid.Row="22"  Content="Close" FontSize="14"></Button>
+        <Button x:Name="btnBack" Grid.Column="0" Grid.Row="22"  Content="Back" FontSize="14" Click="BtnBack_Click"></Button>
+        <Button x:Name="btnNext" Grid.ColumnSpan="4" Grid.Column="9" Grid.Row="22" Content="Next" FontSize="14" Click="BtnNext_Click"></Button>
+        <Button x:Name="btnClose" Grid.Column="4" Grid.Row="22"  Content="Close" FontSize="14" Click="BtnClose_Click"></Button>
     </Grid>
 </Window>
